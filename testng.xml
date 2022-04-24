@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" >
+
+    <listeners>
+        <listener class-name="testNGListeners.RerunFailedScenarios"></listener>
+    </listeners>
+    
+    <test name="Re-Run Scanrios">
+        <classes>
+            <class name="testNGListeners.TestingExampleClass"></class>
+        </classes>
+        
+    </test>
+<!--    parallel="methods" thread-count="2"-->
+    <!--    <test verbose="2" preserve-order="true"-->
+    <!--          name="C:/Users/Satyam Kumar/IdeaProjects/Project1/src/main/java/pack1/Class2.java">-->
+    <!--        <classes/>-->
+    <!--    </test>-->
+<!--    <parameter name="rollNum" value="1"></parameter>-->
+<!--    <parameter name="name" value="Sayantika"></parameter>-->
+<!--    <test name="Parameterization">-->
+<!--        <classes>-->
+<!--            <class name="pack1.ParametersInTestNG"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <parameter name="rollNum" value="2"></parameter>-->
+<!--    <parameter name="name" value="Satyam"></parameter>-->
+<!--    <test name="Parameterization1">-->
+<!--        <classes>-->
+<!--            <class name="pack1.ParametersInTestNG"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <parameter name="rollNum" value="3"></parameter>-->
+<!--    <parameter name="name" value="Richa"></parameter>-->
+<!--    <test name="Parameterization2">-->
+<!--        <classes>-->
+<!--            <class name="pack1.ParametersInTestNG"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <parameter name="rollNum" value="4"></parameter>-->
+<!--    <parameter name="name" value="Swati"></parameter>-->
+<!--    <test name="Parameterization3">-->
+<!--        <classes>-->
+<!--            <class name="pack1.ParametersInTestNG"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    Below Lines Are For Grouping-->
+<!--    <test name="Grouping">-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="Sanity"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--&lt;!&ndash;        <classes>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="Class1"></class>&ndash;&gt;-->
+<!--&lt;!&ndash;        </classes>&ndash;&gt;-->
+
+<!--        <packages>-->
+<!--            <package name="pack1"></package>-->
+<!--        </packages>-->
+<!--    </test>-->
+</suite>
